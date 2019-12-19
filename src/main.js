@@ -2,6 +2,12 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import './plugins/element';
+import './plugins/request';
+import './plugins/moment';
+import './plugins/localforage';
+import 'normalize.css';
+import './common/css/common.css';
 
 Vue.config.productionTip = false;
 
